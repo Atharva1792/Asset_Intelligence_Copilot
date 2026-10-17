@@ -1,0 +1,12 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+docs/
+migrations/
+sample-data/
+scratch/
+scripts/
+test-data/
+.env.example

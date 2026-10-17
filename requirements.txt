@@ -1,0 +1,17 @@
+# Core Backend & Agent
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+python-dotenv>=1.0.0
+
+# Database & Storage (TimescaleDB / PostgreSQL)
+psycopg[binary]>=3.1.18
+asyncpg>=0.29.0
+sqlalchemy>=2.0.28
+
+# Model Provider (Google AI Studio Gemma 4)
+google-genai>=0.1.1
+
+# Document Retrieval & Embeddings
+fastembed>=0.2.7
+markdown>=3.6
